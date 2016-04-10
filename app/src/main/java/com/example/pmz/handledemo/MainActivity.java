@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imageView= (ImageView) findViewById(R.id.imageView);
+        imageView= (ImageView) findViewById(R.id.imageView);//HHHH
 //        new Thread(new Runnable() {
 //            @Override
 //            public void run() {
